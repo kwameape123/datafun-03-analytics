@@ -1,1 +1,2 @@
+# Exclude folder and its contents from source control.
 .venv/

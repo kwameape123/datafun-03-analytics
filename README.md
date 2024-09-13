@@ -15,26 +15,41 @@
 ## Process In Code
 ### Create, Clone and Open Project Repository (Steps 1 - 3)
 '''git
-gitclone https://github.com/kwameape123/datafun-03-analytics'''
+
+gitclone https://github.com/kwameape123/datafun-03-analytics
+
+'''
 '''shell
+
 cd Documents
 dir
 cd datafun-03-analytics
-code .'''
+code .
+
+'''
 ### Create and Activate Virtual Environment (Steps 4-5)
 '''shell
+
 py -m venv .venv
 .venv/Scripts/Activate
+
+'''
 ### Create Project Requirement and .gitignore Files. Install Project Dependencies.(Steps 6-9)
 '''shell
+
 ni requirments.txt
 pip -m install -r requirements.txt
 ni .gitignore
-ni README.md'''
+ni README.md
+
+'''
 ### Git Add and Commit.(Step 10)
 '''shell
+
 git add .
-git commit -m add .gitinore,process and process cmds to README.md
-git push -u origin main'''
+git commit -m add .gitinore, add process and process cmds to README.md
+git push -u origin main
+
+'''
 
 
